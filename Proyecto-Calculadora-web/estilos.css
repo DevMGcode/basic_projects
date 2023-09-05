@@ -1,0 +1,93 @@
+#fondo{
+    position: relative;
+    
+    margin-left: 30%;
+}
+
+#titulo{
+    margin-left: 15%;
+}
+#num1,#num2{
+    width: 13%;
+    padding: 1%;
+    margin: 0.5%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(162, 149, 149);
+    color: rgb(94, 8, 136);
+}
+
+#resultNumrs{
+    width: 28%;
+    padding: 1%;
+    margin: 0.5%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(162, 149, 149);
+    color: rgb(94, 8, 136);
+}
+
+/* #num1,#num2:hover{
+    background-color: rgb(250, 248, 248);
+    color: rgb(94, 8, 136);
+} */
+
+input,::placeholder{
+    color: rgb(240, 248, 255);
+}
+
+.basicos{
+    padding: 1%;
+    width: 8%;
+    background-color: rgb(145, 67, 218);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.basicos:hover{
+    background-color: rgb(72, 27, 114);
+}
+
+.cientifica{
+    margin-top: 5px;
+    padding: 1%;
+    width: 16.2%;
+    font-size: 30px;
+    background-color: rgb(145, 67, 218);
+    color: white;
+}
+
+.cientifica:hover{
+    background-color: rgb(72, 27, 114);
+    color: white;
+}
+
+.containerbotons{
+    display: block;
+    margin-left: 5%;
+}
+
+.entradas{
+    margin-left: 5%;
+}
+
+.resultados{
+    margin-left: 5%;
+    
+}
+.redondeos{
+    margin-left: 7%;
+}
+.redondeo{
+    padding: 1%;
+    width: 9%;
+    background-color: rgb(145, 67, 218);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.redondeo:hover{
+    background-color: rgb(72, 27, 114);
+}

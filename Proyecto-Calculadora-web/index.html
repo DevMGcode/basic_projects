@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+     <div id="fondo">
+         <h1 id="titulo">Calculadora</h1>
+             <div class="entradas">
+            <input type="text" placeholder="Numero 1" id="num1">
+            <input type="text" placeholder="Numero 2" id="num2">
+            <br>
+             </div>
+             
+             <div class="containerbotons">
+            <button class="basicos" onclick="sumarNumrs()">+</button>
+            <button class="basicos" onclick="restaNumrs()">-</button>
+            <button class="basicos" onclick="multiNumrs()">x</button>
+            <button class="basicos" onclick="divirNumrs()">/</button>
+            <br>
+            <button class="cientifica" onclick="potenciaNumrs()">Potencia</button>
+            <button class="cientifica" onclick="raizNumrs()">Raiz</button>
+            <br>
+            <button class="cientifica" onclick="absolutoNumrs()">Absoluto</button>
+            <button class="cientifica" onclick="randomNumrs()">Random</button>
+            <br>
+             </div>
+             <div class="resultados">
+            <input type="text" placeholder="Resultado" id="resultNumrs">
+            <br>
+             </div>
+            <div class="redondeos">
+                <button class="redondeo" onclick="roundNumrs()">Round</button>
+                <button class="redondeo" onclick="floorNumrs()">Floor</button>
+                <button class="redondeo" onclick="ceilNumrs()">Ceil</button>
+            </div>
+     </div>
+        
+    
+
+</body>
+</html>

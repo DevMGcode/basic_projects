@@ -1,0 +1,22 @@
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(Fdonas.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.menuInputMayor{
+ background-color: greenyellow;
+}
+
+.menuInputMenor{
+    background-color: lightsalmon;
+}

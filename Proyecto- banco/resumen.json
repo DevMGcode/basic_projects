@@ -1,0 +1,10 @@
+{
+    "banco": "Banco Invercentro",
+    "sucursal":"Centro LA",
+    "titular": "Susana Vasquez",
+    "nro_cuenta":"1765843/09",
+    "saldo": [{"moneda": "USD", "monto": 725.34},{"moneda": "EUR", "monto": 195.68}],
+    "cbu":"1562244781396432",
+    "abierto": "01/06/2022"
+
+}

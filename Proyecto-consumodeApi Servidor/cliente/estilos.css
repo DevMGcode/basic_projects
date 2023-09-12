@@ -1,0 +1,47 @@
+
+
+td {
+    background-color: #7e434300; 
+    transition: background-color 0.3s; 
+  }
+  
+ 
+  td:hover {
+    background-color: #5099e2; /
+    color:white;
+}
+  
+
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(7,53,150,1) 49%, rgba(4,125,197,1) 72%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+
+table {
+    background-color: #5fafe0; 
+    border: 2px solid rgba(9,9,121,1);
+  }
+  tr td, tr th {
+    color: #333; /* Color de texto (negro) */
+    border: 1px solid rgba(9,9,121,1);
+}
+
+/* Estilo normal del título */
+#titulo {
+    color: #4c95ed; /* Color de texto normal */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+/* Estilo cuando el cursor está sobre el título */
+#titulo:hover {
+    color: #ffffff; /* Cambiar a un color rojo cuando se hace hover */
+}
+
+

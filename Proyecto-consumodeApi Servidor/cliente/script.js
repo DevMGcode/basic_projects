@@ -5,7 +5,7 @@ async function cargarDatos() {
         const spinner = document.getElementById('spinner');
         spinner.style.display = 'block'; // Mostrar el spinner
 
-        // Simular un retraso de 2 segundos (2000 ms)
+        // Simular un retraso de 3 segundos (3000 ms)
         await new Promise(resolve => setTimeout(resolve, 3000));
 
         // Hacer una solicitud para cargar el archivo JSON local
